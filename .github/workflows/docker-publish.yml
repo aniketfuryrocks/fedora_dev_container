@@ -1,5 +1,7 @@
 name: Docker
 
+run-name: Deploy to ${{ inputs.deploy_target }} by @${{ github.actor }}
+
 on:
   release:
     types: [released]
